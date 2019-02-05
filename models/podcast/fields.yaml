@@ -1,0 +1,30 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    title:
+        label: Podcast Title
+        span: left
+        placeholder: Podcast Title
+        required: true
+
+    description:
+        label: Podcast Description
+        span: left
+        placeholder: Podcast Description
+        required: true
+
+    link:
+        label: Podcast Link
+        span: left
+        placeholder: Podcast Link
+        required: true
+
+    image:
+        label: Podcast Image (400x400)
+        type: fileupload
+        mode: image
+        imageHeight: 260
+        imageWidth: 260

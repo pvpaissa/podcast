@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: Podcast
+form: ~/plugins/cleanse/podcast/models/podcast/fields.yaml
+modelClass: Cleanse\Podcast\Models\Podcast
+defaultRedirect: cleanse/podcast/episodes
+
+create:
+    redirect: cleanse/podcast/episodes/update/:id
+    redirectClose: cleanse/podcast/episodes
+
+update:
+    redirect: cleanse/podcast/episodes
+    redirectClose: cleanse/podcast/episodes

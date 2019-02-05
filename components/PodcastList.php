@@ -27,6 +27,6 @@ class PodcastList extends ComponentBase
 
     protected function loadPodcasts()
     {
-        return Podcast::all();
+        return Podcast::orderBy('created_at', 'desc')->get();
     }
 }

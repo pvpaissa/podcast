@@ -1,2 +1,2 @@
 # Podcast Plugin
-Generates a list of podcasts you've added to your database.
+An OctoberCMS plugin that handles our podcasts section.

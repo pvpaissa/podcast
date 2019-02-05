@@ -35,9 +35,9 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Cleanse\Podcast\Components\Latest'  => 'cleansePodcastLatest',
-            'Cleanse\Podcast\Components\List'    => 'cleansePodcastList',
-            'Cleanse\Podcast\Components\Episode' => 'cleansePodcastEpisode'
+            'Cleanse\Podcast\Components\Latest'         => 'cleansePodcastLatest',
+            'Cleanse\Podcast\Components\PodcastList'    => 'cleansePodcastList',
+            'Cleanse\Podcast\Components\Episode'        => 'cleansePodcastEpisode'
         ];
     }
 

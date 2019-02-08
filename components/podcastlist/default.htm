@@ -13,7 +13,7 @@
         {% for episode in episodes %}
             <div class="col-lg-6">
                 <div class="article">
-                    <a href="{{ episode.link }}">
+                    <a href="{{ episode.link }}" target="_blank">
                         <img
                                 class="article-img-top"
                                 src="{{ episode.image ?: default_image }}"
@@ -22,7 +22,7 @@
 
                     <div class="article-tag-date">
                         <p class="article-tag">
-                            <a href="{{ episode.link }}">
+                            <a href="{{ episode.link }}" target="_blank">
                                 <i class="fas fa-podcast"></i> Listen
                             </a>
                         </p>
@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="article-body">
-                        <h5 class="article-title"><a href="{{ episode.link }}">
+                        <h5 class="article-title"><a href="{{ episode.link }}" target="_blank">
                             {{ episode.title }}
                         </a></h5>
                         <p class="article-text">{{ episode.description }}</p>
